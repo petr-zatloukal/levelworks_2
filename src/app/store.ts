@@ -1,9 +1,9 @@
-import { configureStore, ThunkAction, Action } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
+import { configureStore, ThunkAction, Action } from "@reduxjs/toolkit";
+import gridReducer from "../features/grid/store/gridSlice";
 
 export const store = configureStore({
   reducer: {
-    counter: counterReducer,
+    grid: gridReducer,
   },
 });
 
