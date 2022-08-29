@@ -42,7 +42,7 @@ export default Tile;
 const StyledTile = styled.div`
   display: flex;
   border: 0.3px solid rgba(0, 0, 0, 0.24);
-  height: 40px;
+  height: 30px;
   min-width: 30px;
   max-width: 30px;
   margin: 1px;
