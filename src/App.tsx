@@ -1,12 +1,12 @@
-import React from "react";
-import Page from "./features/grid/components/Page";
+import React from 'react';
+import Page from './features/grid/components/Page/Page';
 
 function App() {
-  return (
-    <div className="App">
-      <Page />
-    </div>
-  );
+	return (
+		<div className='App'>
+			<Page />
+		</div>
+	);
 }
 
 export default App;
